@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-form {
+  background-color: hsla(155, 81%, 56%, 0.599);
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+}
+
+.btnBack {
+  display: none;
+}
+.btnNext {
+  display: none;
+}
+.send {
+  position: absolute;
+}
+
+/* ApiPixabay.css */
+.image-container {
+  position: relative;
+}
+
+.viewer-container {
+  /* Establecer los estilos que desees para el visor modal */
+  /* Por ejemplo: */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
